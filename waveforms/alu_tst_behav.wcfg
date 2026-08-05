@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="alu_tst_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="alu_tst" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="140.401 ns"></ZoomEndTime>
+      <Cursor1Time time="51.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="73"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/alu_tst/rs1_data" type="array">
+      <obj_property name="ElementShortName">rs1_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tst/rs2_data" type="array">
+      <obj_property name="ElementShortName">rs2_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tst/immediate" type="array">
+      <obj_property name="ElementShortName">immediate[31:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tst/alu_src" type="logic">
+      <obj_property name="ElementShortName">alu_src</obj_property>
+      <obj_property name="ObjectShortName">alu_src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tst/alu_op" type="array">
+      <obj_property name="ElementShortName">alu_op[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_op[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tst/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tst/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tst/negative" type="logic">
+      <obj_property name="ElementShortName">negative</obj_property>
+      <obj_property name="ObjectShortName">negative</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tst/overflow" type="logic">
+      <obj_property name="ElementShortName">overflow</obj_property>
+      <obj_property name="ObjectShortName">overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tst/pass_count" type="array">
+      <obj_property name="ElementShortName">pass_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pass_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tst/fail_count" type="array">
+      <obj_property name="ElementShortName">fail_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fail_count[31:0]</obj_property>
+   </wvobject>
+</wave_config>
