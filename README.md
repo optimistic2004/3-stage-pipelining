@@ -1,6 +1,6 @@
-# 3-Stage Pipeline (SystemVerilog)
+# 3-Stage Pipeline 
 
-A 3-stage pipelined processor design written in SystemVerilog.
+A 3-stage pipelined processor RTL design written in Verilog and testbench written in system verilog .
 
 ## Pipeline Stages
 1. **Fetch**
