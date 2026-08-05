@@ -20,5 +20,3 @@ A 3-stage pipelined processor design written in SystemVerilog.
 ## Simulator
 Vivado
 
-## Status
-Testbenches, waveforms, and synthesis results will be added in future updates.
