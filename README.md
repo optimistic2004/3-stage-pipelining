@@ -7,23 +7,23 @@ IF – Instruction Fetch
 ID – Instruction Decode
 EX – Execute
 ### Design (Verilog):
-Program Counter (PC)
-Instruction Memory
-Register File
-Immediate Generator
-ALU
-Control Unit
-Data Memory
-Pipeline Registers (IF/ID, ID/EX)
+Program Counter (PC),
+Instruction Memory,
+Register File,
+Immediate Generator,
+ALU,
+Control Unit,
+Data Memory,
+Pipeline Registers (IF/ID, ID/EX),
 **Verification (SystemVerilog)**
 
 Each core module is verified with a dedicated testbench (see tb/), covering:
 
-PC increment and branch behavior
-Register file read/write
-Immediate generation for supported instruction formats
-ALU operation correctness
-Control unit decode logic
+PC increment and branch behavior,
+Register file read/write,
+Immediate generation for supported instruction formats,
+ALU operation correctness,
+Control unit decode logic,
 Full pipeline datapath execution (tst_pipeline.sv)
 
 Simulation waveforms for each verified module are included in waveforms/.
